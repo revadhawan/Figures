@@ -4,7 +4,7 @@ public class Main {
 
     Figura figura = new Figura();
     double Area = figura.CalculArea("Rectangle", 4,5 );
-
+    System.out.println("Hola");
     System.out.println (Area);
 
 
