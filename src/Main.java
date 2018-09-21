@@ -11,7 +11,7 @@ public class Main {
         }
         for (int i=0; i<10; i++)
         {
-            areatotal=areatotal + Area[i];
+            areatotal=areatotal + Area[i] +1;
         }
 
         System.out.println("Area de la figura:");
