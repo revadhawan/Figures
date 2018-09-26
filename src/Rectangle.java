@@ -1,6 +1,14 @@
-public class Rectangle{
+public class Rectangle extends Figura{
 
-    public double Area (double base, double altura){
+    double base;
+    double altura;
+
+    public Rectangle (double base, double altura){
+        this.base = base;
+        this.altura = altura;
+    }
+    public double area(){
         return base*altura;
     }
 }
+

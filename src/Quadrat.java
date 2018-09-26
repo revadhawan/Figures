@@ -1,6 +1,7 @@
 public class Quadrat extends Rectangle {
 
-public double Area (double costat) {
-    return costat*costat;
-    }
+public Quadrat (double costat) {
+    super(costat,costat);
+ }
+
 }

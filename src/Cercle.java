@@ -1,6 +1,12 @@
-public class Cercle {
+public class Cercle extends Figura{
+    double radi;
 
-    public double Area (double radi){
+    public Cercle (double radi){
+        this.radi = radi;
+    }
+
+    public double area(){
         return radi*radi*Math.PI;
     }
+
 }
